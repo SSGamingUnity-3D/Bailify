@@ -1,7 +1,6 @@
 # 🤖 Excuse Generator App
 
-An Android app to generate, rate, and save funny or custom excuses. Great for entertainment or light-hearted scenarios like skipping school, being late to work, or dealing with aliens. Built using **Java**, **SQLite**, and **Material Components** with optional **OpenAI GPT integration**.
-
+An Android app to generate, rate, and save funny or custom excuses. Great for entertainment or light-hearted scenarios like skipping school, being late to work, or dealing with aliens. Built using **Java**, **SQLite**
 ---
 
 ## 📱 Features
