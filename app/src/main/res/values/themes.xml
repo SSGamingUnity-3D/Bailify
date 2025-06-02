@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Material 3 Light Theme -->
+    <style name="Base.Theme.ExcuseGenerator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Surface and background colors -->
+        <item name="colorSurface">@color/background_light</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Status bar settings -->
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!-- Optional: App background (for full-screen layouts) -->
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
+    <!-- Your app's main theme -->
+    <style name="Theme.ExcuseGenerator" parent="Base.Theme.ExcuseGenerator" />
+
+</resources>
