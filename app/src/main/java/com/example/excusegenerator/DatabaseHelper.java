@@ -104,6 +104,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         long result = db.insert(TABLE_FAVORITES, null, values);
         return result != -1;
     }
+    public boolean deleteFavoriteExcuseByText(String excuseText) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        int rowsDeleted = db.delete(TABLE_FAVORITES, "excuse_text = ?", new String[]{excuseText});
+        return rowsDeleted > 0;
+    }
 
     // Get all excuses by category (including default and custom)
     public ArrayList<String> getExcusesByCategory(String category) {
