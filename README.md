@@ -1,29 +1,36 @@
-# 🤖 Excuse Generator App
+# 📱 Excuse Generator App
 
-An Android app to generate, rate, and save funny or custom excuses. Great for entertainment or light-hearted scenarios like skipping school, being late to work, or dealing with aliens. Built using **Java**, **SQLite**, and **Material Components** with optional **OpenAI GPT integration**.
+A fun and functional Android app that lets users generate, rate, and save creative excuses across categories like School, Work, and Sci-fi. Built with Java, SQLite, and Material Design components.
 
 ---
 
-## 📱 Features
+## ✨ Features
 
-- 📝 **User Registration & Login**
-  - First-time users register, then only login is shown.
-  - Optional "Forgot Password" placeholder included.
+- ✅ **First-Time Registration**
+  - First-time users register once.
+  - Returning users log in directly.
 
-- 💬 **Excuse Generation**
-  - Default categories: `School`, `Work`, `Aliens/Sci-fi`, etc.
-  - Each category includes 10 predefined excuses.
-  - Optional AI-powered excuse generator using OpenAI GPT API.
+- 🔐 **Login Screen**
+  - Simple login form.
+  - "Forgot password" placeholder included for future support.
 
-- 🌟 **Favorite Excuses**
-  - Rate and save generated excuses.
-  - View all saved favorites with rating and category.
-  - Edit or delete favorites from a custom list view.
+- 💡 **Excuse Generator**
+  - Built-in excuses for categories like:
+    - School
+    - Work
+    - Aliens / Sci-fi
+  - 10 excuses per category included by default.
 
-- ➕ **Add Custom Excuses**
-  - Users can create their own excuses and add them by category.
+- 🌟 **Favorites**
+  - Users can rate excuses.
+  - Save top-rated excuses as favorites.
+  - View, edit, or delete favorites.
 
-- 🌓 **Material Design + Light/Dark Theme Support**
+- ➕ **Custom Excuses**
+  - Users can add their own excuses by category.
+
+- 🌓 **Light/Dark Theme Support**
+  - Based on Material Components for consistent look and feel.
 
 ---
 
@@ -31,13 +38,12 @@ An Android app to generate, rate, and save funny or custom excuses. Great for en
 
 - **Language:** Java
 - **Database:** SQLite (via `SQLiteOpenHelper`)
-- **UI:** Material Design (`MaterialComponents`)
-- **AI Integration (Optional):** OpenAI GPT (`text-davinci-003`, `gpt-3.5`, or `gpt-4`)
+- **UI Framework:** Material Design Components
 - **IDE:** Android Studio
 
 ---
 
-## 📦 Project Structure
+## 📦 App Structure
 
 ```bash
 app/
@@ -60,4 +66,3 @@ app/
 │   ├── item_favorite.xml
 │   └── activity_add_custom_excuse.xml
 └── README.md
-
