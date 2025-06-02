@@ -15,8 +15,6 @@
 
         <activity android:name=".AddCustomExcuseActivity" />
         <activity android:name=".FavoriteExcusesActivity" />
-
-        <!-- ✅ Add this entry -->
         <activity android:name=".GeneratedExcuseActivity" />
 
         <activity
