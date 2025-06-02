@@ -24,14 +24,23 @@ public class FavoriteExcusesActivity extends AppCompatActivity {
 
         ArrayList<HashMap<String, String>> favorites = dbHelper.getAllFavoriteExcuses();
 
+//        SimpleAdapter adapter = new SimpleAdapter(
+//                this,
+//                favorites,
+//                android.R.layout.simple_list_item_2,
+//                new String[]{"excuse", "info"},
+//                new int[]{android.R.id.text1, android.R.id.text2}
+//        );
+//
+//        favoritesListView.setAdapter(adapter);
+
         SimpleAdapter adapter = new SimpleAdapter(
                 this,
                 favorites,
-                android.R.layout.simple_list_item_2,
+                R.layout.item_favorite,  // Use custom layout here
                 new String[]{"excuse", "info"},
-                new int[]{android.R.id.text1, android.R.id.text2}
+                new int[]{R.id.text1, R.id.text2}
         );
-
         favoritesListView.setAdapter(adapter);
     }
 }
