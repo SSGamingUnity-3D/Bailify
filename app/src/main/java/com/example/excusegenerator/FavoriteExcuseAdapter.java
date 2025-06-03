@@ -56,10 +56,10 @@ public class FavoriteExcuseAdapter extends BaseAdapter {
         holder.excuseText.setText(item.get("excuse"));
         holder.infoText.setText(item.get("info"));
 
-        holder.editBtn.setOnClickListener(v -> {
-            // TODO: Implement edit functionality (launch edit screen or dialog)
-            Toast.makeText(context, "Edit clicked: " + item.get("excuse"), Toast.LENGTH_SHORT).show();
-        });
+//        holder.editBtn.setOnClickListener(v -> {
+//            // TODO: Implement edit functionality (launch edit screen or dialog)
+//            Toast.makeText(context, "Edit clicked: " + item.get("excuse"), Toast.LENGTH_SHORT).show();
+//        });
 
         holder.deleteBtn.setOnClickListener(v -> {
             String excuseToDelete = item.get("excuse");
@@ -79,7 +79,7 @@ public class FavoriteExcuseAdapter extends BaseAdapter {
     static class ViewHolder {
         TextView excuseText;
         TextView infoText;
-        ImageButton editBtn;
+        //ImageButton editBtn;
         ImageButton deleteBtn;
     }
 }
