@@ -44,7 +44,7 @@ public class FavoriteExcuseAdapter extends BaseAdapter {
             holder = new ViewHolder();
             holder.excuseText = convertView.findViewById(R.id.text1);
             holder.infoText = convertView.findViewById(R.id.text2);
-            holder.editBtn = convertView.findViewById(R.id.btn_edit);
+            //holder.editBtn = convertView.findViewById(R.id.btn_edit);
             holder.deleteBtn = convertView.findViewById(R.id.btn_delete);
             convertView.setTag(holder);
         } else {

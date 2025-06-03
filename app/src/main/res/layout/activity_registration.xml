@@ -6,6 +6,20 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="?android:attr/windowBackground">
+    <TextView
+        android:id="@+id/_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bailify"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/textColorPrimary"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:letterSpacing="0.05"
+        android:textAllCaps="false" />
 
     <TextView
         android:text="Register"
